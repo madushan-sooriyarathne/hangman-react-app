@@ -1,0 +1,34 @@
+.Game {
+    /* 
+    width: 100vw;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Game-buttonPad {
+    display: grid;
+    grid-template-columns: repeat(13, min-content);
+    grid-template-rows: repeat(3, min-content);
+    justify-items: center;
+    gap: 1rem;
+}
+
+.Game-reset {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.Game-reset:hover {
+    color: white;
+    background-color: black;
+}

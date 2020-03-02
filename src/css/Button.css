@@ -1,0 +1,26 @@
+.Button {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    justify-self: center;
+}
+
+.Deactivated {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.Activated:hover {
+    color: white;
+    background-color: black;
+}

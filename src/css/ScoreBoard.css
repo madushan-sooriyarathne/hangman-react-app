@@ -1,0 +1,41 @@
+.ScoreBoard {
+    margin: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 10rem;
+}
+
+.ScoreBoard-winner {
+    font-size: 4rem;
+    font-weight: 700;
+    color: goldenrod;
+}
+
+.ScoreBoard-looser {
+    font-size: 4rem;
+    font-weight: 700;
+    color: red;
+}
+
+.ScoreBoard-score {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ScoreBoard-score > * {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 21rem;
+}
+
+.ScoreBoard-score > *:not(:last-child) {
+    margin-right: 2rem;
+}
